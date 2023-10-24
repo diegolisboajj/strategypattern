@@ -8,7 +8,7 @@ Este repositório criado para exemplo de padrão de Strategy Design.
 #### Envie uma mensagem para uma plataforma.
 
 ``` http
-  PEGAR /
+  GET/
 ```
 
 | Parâmetro | Tipo | Descrição |
