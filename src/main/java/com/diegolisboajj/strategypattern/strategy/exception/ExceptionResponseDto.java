@@ -1,4 +1,4 @@
-package com.ugurhalil.strategypattern.strategy.exception;
+package com.diegolisboajj.strategypattern.strategy.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

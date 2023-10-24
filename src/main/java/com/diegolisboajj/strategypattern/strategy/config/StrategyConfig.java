@@ -1,7 +1,7 @@
-package com.ugurhalil.strategypattern.strategy.config;
+package com.diegolisboajj.strategypattern.strategy.config;
 
-import com.ugurhalil.strategypattern.strategy.NotificationStrategy;
-import com.ugurhalil.strategypattern.strategy.enums.NotificationType;
+import com.diegolisboajj.strategypattern.strategy.NotificationStrategy;
+import com.diegolisboajj.strategypattern.strategy.enums.NotificationType;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.ugurhalil.strategypattern;
+package com.diegolisboajj.strategypattern;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

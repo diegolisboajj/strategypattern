@@ -1,7 +1,7 @@
-package com.ugurhalil.strategypattern.strategy;
+package com.diegolisboajj.strategypattern.strategy;
 
-import com.ugurhalil.strategypattern.strategy.enums.NotificationType;
-import com.ugurhalil.strategypattern.strategy.exception.NotFoundNotificationStrategy;
+import com.diegolisboajj.strategypattern.strategy.enums.NotificationType;
+import com.diegolisboajj.strategypattern.strategy.exception.NotFoundNotificationStrategy;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -18,7 +18,7 @@ public class NotificationContext {
     public void sendMessage(String message, NotificationType notificationType) throws NotFoundNotificationStrategy {
         NotificationStrategy notificationStrategy = sendNotificationByType.getOrDefault(notificationType, null);
         if (Objects.isNull(notificationStrategy)) {
-            throw new NotFoundNotificationStrategy("Notification Type not found. type: " + notificationType);
+            throw new NotFoundNotificationStrategy("Tipo de notificação não encontrado. tipo: " + notificationType);
         }
         notificationStrategy.sendMessage(message);
     }

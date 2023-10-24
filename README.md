@@ -1,25 +1,23 @@
-
 # Strategy Pattern
 
-This repository created for Strategy Design pattern example.
+Este repositório criado para exemplo de padrão de Strategy Design.
 
 
-## API Reference
+## Referência de API
 
-#### Send a message to a platform.
+#### Envie uma mensagem para uma plataforma.
 
-```http
-  GET /
+``` http
+  PEGAR /
 ```
 
-| Parameter | Type     | Description                |
+| Parâmetro | Tipo | Descrição |
 | :-------- | :------- | :------------------------- |
-| `message` | `string` | **Required**. Your message that want to send |
-| `notificationType` | `string` | **Required**. You want to send your message to which where platforms: SITE, SMS, EMAIL |
+| `mensagem` | `string` | **Obrigatório**. Sua mensagem que deseja enviar |
+| `notificationType` | `string` | **Obrigatório**. Você deseja enviar sua mensagem para quais plataformas: SITE, SMS, EMAIL |
 
 
 
-## Feedback
+## Opinião
 
-If you have any feedback, please reach out to us at mr.halilugur@gmail.com
-
+Se você tiver algum comentário, entre em contato conosco pelo e-mail diego.giglioli@gmail.com

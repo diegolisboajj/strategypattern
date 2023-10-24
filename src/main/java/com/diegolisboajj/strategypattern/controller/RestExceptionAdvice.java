@@ -1,7 +1,7 @@
-package com.ugurhalil.strategypattern.controller;
+package com.diegolisboajj.strategypattern.controller;
 
-import com.ugurhalil.strategypattern.strategy.exception.ExceptionResponseDto;
-import com.ugurhalil.strategypattern.strategy.exception.NotFoundNotificationStrategy;
+import com.diegolisboajj.strategypattern.strategy.exception.ExceptionResponseDto;
+import com.diegolisboajj.strategypattern.strategy.exception.NotFoundNotificationStrategy;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

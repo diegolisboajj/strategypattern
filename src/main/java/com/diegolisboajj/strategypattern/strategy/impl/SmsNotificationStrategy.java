@@ -1,7 +1,7 @@
-package com.ugurhalil.strategypattern.strategy.impl;
+package com.diegolisboajj.strategypattern.strategy.impl;
 
-import com.ugurhalil.strategypattern.strategy.NotificationStrategy;
-import com.ugurhalil.strategypattern.strategy.enums.NotificationType;
+import com.diegolisboajj.strategypattern.strategy.NotificationStrategy;
+import com.diegolisboajj.strategypattern.strategy.enums.NotificationType;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class SmsNotificationStrategy implements NotificationStrategy {
     @Override
     public void sendMessage(String message) {
-        log.info("message send to phone" + message);
+        log.info("mensagem enviada para o telefone" + message);
     }
 
     @Override

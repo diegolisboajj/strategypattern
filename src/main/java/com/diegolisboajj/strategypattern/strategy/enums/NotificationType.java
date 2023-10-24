@@ -1,4 +1,4 @@
-package com.ugurhalil.strategypattern.strategy.enums;
+package com.diegolisboajj.strategypattern.strategy.enums;
 
 public enum NotificationType {
     SITE,

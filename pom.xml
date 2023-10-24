@@ -8,7 +8,7 @@
         <version>2.7.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.ugurhalil.strategypattern</groupId>
+    <groupId>com.diegolisboajj.strategypattern</groupId>
     <artifactId>strategy-pattern</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Strategy Pattern</name>
